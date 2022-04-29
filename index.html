@@ -1,0 +1,159 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="a wallpaper.jpg">
+
+<ol>
+    <div class="test_image_and_result col-xs-12">
+
+        <li class="col-sm-4 col-xs-12">
+            <b>Image - </b>
+            <img src="bottle.webp" class="img-responsive">
+        </li>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS </b> - 
+            <span>  Water Bottle </span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+            Output on <b>MOBILENET </b> - 
+            <span> Punching Bag, Missile </span>
+        </h5>
+
+        <div class="mini_result" class="col-xs-12">
+            <h4>Result - Google Lens</h4>
+            <hr>
+            <h4> </h4>
+        </div>
+        </div>
+
+
+        <br>
+        
+
+        <div class="test_image_and_result col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b>Image - </b>
+                <img src="glasses.webp" class="img-responsive">
+            </li>
+    
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS </b> - 
+                <span> Glasses </span>
+            </h5>
+    
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>MOBILENET </b> - 
+                <span> blindfold, notebook </span>
+            </h5>
+    
+            <div class="mini_result" class="col-xs-12">
+                <h4>Result - Google Lens</h4>
+                <hr>
+                <h4> </h4>
+            </div>
+            </div>
+    
+
+            <br>
+
+
+            <div class="test_image_and_result col-xs-12">
+
+                <li class="col-sm-4 col-xs-12">
+                    <b>Image - </b>
+                    <img src="keychain.webp" class="img-responsive">
+                </li>
+        
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>GOOGLE LENS </b> - 
+                    <span> keychain </span>
+                </h5>
+        
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b>MOBILENET </b> - 
+                    <span> cork srew, bottle srew </span>
+                </h5>
+        
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result - Google Lens </h4>
+                    <hr>
+                    <h4> </h4>
+                </div>
+                </div>
+        
+
+
+                <br>
+
+
+                <div class="test_image_and_result col-xs-12">
+
+                    <li class="col-sm-4 col-xs-12">
+                        <b>Image - </b>
+                        <img src="wallet.jpg" class="img-responsive">
+                    </li>
+            
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>GOOGLE LENS </b> - 
+                        <span> Wallet </span>
+                    </h5>
+            
+                    <h5 class="col-sm-4 col-xs-12">
+                        Output on <b>MOBILENET </b> - 
+                        <span> hankechief, hankie </span>
+                    </h5>
+            
+                    <div class="mini_result" class="col-xs-12">
+                        <h4>Result - Google Lens</h4>
+                        <hr>
+                        <h4> </h4>
+                    </div>
+                    </div>
+            
+
+
+                    <br>
+
+
+                    <div class="test_image_and_result col-xs-12">
+
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Image - </b>
+                            <img src="yorkie terrier.jpg" class="img-responsive">
+                        </li>
+                
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>GOOGLE LENS </b> - 
+                            <span> Yorkshire Terrier </span>
+                        </h5>
+                
+                        <h5 class="col-sm-4 col-xs-12">
+                            Output on <b>MOBILENET </b> - 
+                            <span> Yorkshire Terrier </span>
+                        </h5>
+                
+                        <div class="mini_result" class="col-xs-12">
+                            <h4>Result - Google Lens and Mobilenet</h4>
+                            <hr>
+                            <h4>  </h4>
+                        </div>
+                        </div>
+                
+</ol>
+
+</body>
+</html>
